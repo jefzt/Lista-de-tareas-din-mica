@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    background: white;
+    text-align: center;
+}
+
+
+.formulario {
+    margin-top: 40px;
+}
+
+input, select {
+    border: none;
+    border-bottom: 2px solid #3cff3c;
+    padding: 10px;
+    font-size: 18px;
+    outline: none;
+    margin: 0 15px;
+}
+
+
+.boton {
+    margin-top: 40px;
+}
+
+button {
+    background-color: #6CFF6C;
+    border: none;
+    padding: 18px 60px;
+    font-size: 18px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+
+.lista {
+    margin-top: 100px;
+}
+
+.tarea {
+    display: inline-block;
+    padding: 25px 40px;
+    margin: 15px;
+    border-radius: 30px;
+    font-size: 20px;
+}
+
+.rojo {
+    background-color: #ff00009d;
+}
+
+.amarillo {
+    background-color: #fee501b9;
+}
+
+.verde {
+    background-color: #00ff0097;
+}

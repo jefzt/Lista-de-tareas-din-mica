@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Lista de actividades</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="formulario">
+    <input type="text" id="texto" placeholder="Lista de actividad">
+
+    <select id="estado">
+        <option value="PENDIENTE">PENDIENTE</option>
+         <option value="EN PROCESO">EN PROCESO</option>
+        <option value="FINALIZADO">FINALIZADO</option>
+    </select>
+</div>
+
+<div class="boton">
+    <button onclick="agregar()">Agregar</button>
+</div>
+
+<div id="lista" class="lista"></div>
+
+<script src="scripts.js"></script>
+</body>
+</html>
